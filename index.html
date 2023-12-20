@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Bookmark</title>
+    </head>
+    <body>
+        <div class="container py-5 text-center home">
+            <h1 class="title mb-5">Bookmarker</h1>
+            <div class="dots d-block"></div>
+            <h2 class="pt-4"><i class="fa-solid fa-bookmark p-2"></i>Bookmark
+                your favorite sites<i class="fa-solid fa-bookmark p-2"></i></h2>
+            <form  class="text-start" action="">
+                <label class="pb-2 fw-semibold d-block" for="name"><i class="fa-solid fa-book-bookmark me-2"></i>Site Name</label>
+                <input class="form-control mb-4" type="text" placeholder="Bookmark Name" id="name">
+                <label class="pb-2 fw-semibold d-block" for="url"><i class="fa-solid fa-link me-2"></i>Site URL</label>
+                <input class="form-control mb-4" type="url" placeholder="Website URL" id="url">
+                <div class="botn w100 text-center mb-4"><button class="btn btn-danger px-5" type="button" id="btn">Submit</button></div>
+            </form>
+            <div class="dots d-block"></div>
+            <table class="table my-4">
+                <thead>
+                    <tr>
+                        <th>index</th>
+                        <th>Website Name</th>
+                        <th>Visit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tableRow">
+            
+                </tbody>
+            </table>
+        </div>
+        
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
